@@ -1,0 +1,430 @@
+{
+  "panes": [
+    {
+      "title": "Ashburn Datacenter",
+      "width": 1,
+      "col": {
+        "3": 3,
+        "4": 1,
+        "5": 1
+      },
+      "row": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "col_width": 1,
+      "widgets": [
+        {
+          "settings": {
+            "type": "indicator",
+            "value": "return datasources[\"genesis-blocks\"].latest !== undefined;",
+            "off_text": "Offline",
+            "on_text": "Online",
+            "title": "Status"
+          }
+        },
+        {
+          "settings": {
+            "type": "text_widget",
+            "size": "regular",
+            "units": "blocks",
+            "title": "Block Height",
+            "value": "datasources[\"genesis-blocks\"].latest.block.blockHeight",
+            "sparkline": true,
+            "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "39.043757",
+            "lon": "-77.487442"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Frankfurt Datacenter",
+      "width": 1,
+      "col": {
+        "3": 3,
+        "4": 1,
+        "5": 1
+      },
+      "row": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "col_width": 1,
+      "widgets": [
+        {
+          "settings": {
+            "type": "indicator",
+            "value": "return datasources[\"frankfurt-blocks\"].latest !== undefined;",
+            "off_text": "Offline",
+            "on_text": "Online",
+            "title": "Status"
+          }
+        },
+        {
+          "settings": {
+            "type": "text_widget",
+            "size": "regular",
+            "units": "blocks",
+            "title": "Block Height",
+            "value": "datasources[\"frankfurt-blocks\"].latest.block.blockHeight",
+            "sparkline": true,
+            "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "50.110922",
+            "lon": "8.682127"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Mumbai Datacenter",
+      "width": 1,
+      "col": {
+        "3": 3,
+        "4": 1,
+        "5": 1
+      },
+      "row": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "col_width": 1,
+      "widgets": [
+        {
+          "settings": {
+            "type": "indicator",
+            "value": "return datasources[\"mumbai-blocks\"].latest !== undefined;",
+            "off_text": "Offline",
+            "on_text": "Online",
+            "title": "Status"
+          }
+        },
+        {
+          "settings": {
+            "type": "text_widget",
+            "size": "regular",
+            "units": "blocks",
+            "title": "Block Height",
+            "value": "datasources[\"mumbai-blocks\"].latest.block.blockHeight",
+            "sparkline": true,
+            "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "19.075984",
+            "lon": "72.877656"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Singapore Datacenter",
+      "width": 1,
+      "col": {
+        "3": 3,
+        "4": 1,
+        "5": 1
+      },
+      "row": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "col_width": 1,
+      "widgets": [
+        {
+          "settings": {
+            "type": "indicator",
+            "value": "return datasources[\"singapore-blocks\"].latest !== undefined;",
+            "off_text": "Offline",
+            "on_text": "Online",
+            "title": "Status"
+          }
+        },
+        {
+          "settings": {
+            "type": "text_widget",
+            "size": "regular",
+            "units": "blocks",
+            "title": "Block Height",
+            "value": "datasources[\"singapore-blocks\"].latest.block.blockHeight",
+            "sparkline": true,
+            "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "1.352083",
+            "lon": "103.819836"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Tokyo Datacenter",
+      "width": 1,
+      "col": {
+        "3": 3,
+        "4": 1,
+        "5": 1
+      },
+      "row": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "col_width": 1,
+      "widgets": [
+        {
+          "settings": {
+            "type": "indicator",
+            "value": "return datasources[\"tokyo-blocks\"].latest !== undefined;",
+            "off_text": "Offline",
+            "on_text": "Online",
+            "title": "Status"
+          }
+        },
+        {
+          "settings": {
+            "type": "text_widget",
+            "size": "regular",
+            "units": "blocks",
+            "title": "Block Height",
+            "value": "datasources[\"tokyo-blocks\"].latest.block.blockHeight",
+            "sparkline": true,
+            "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "35.689487",
+            "lon": "139.691706"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Alturas Datacenter",
+      "width": 1,
+      "col": {
+        "3": 3,
+        "4": 1,
+        "5": 1
+      },
+      "row": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "col_width": 1,
+      "widgets": [
+        {
+          "settings": {
+            "type": "indicator",
+            "value": "return datasources[\"alturas-blocks\"].latest !== undefined;",
+            "off_text": "Offline",
+            "on_text": "Online",
+            "title": "Status"
+          }
+        },
+        {
+          "settings": {
+            "type": "text_widget",
+            "size": "regular",
+            "units": "blocks",
+            "title": "Block Height",
+            "value": "datasources[\"alturas-blocks\"].latest.block.blockHeight",
+            "sparkline": true,
+            "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "41.487115",
+            "lon": "-120.542456"
+          }
+        }
+      ]
+    },
+    {
+      "title": "São Paulo",
+      "width": 1,
+      "col": {
+        "3": 3,
+        "4": 1,
+        "5": 1
+      },
+      "row": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "col_width": 1,
+      "widgets": [
+        {
+          "settings": {
+            "type": "indicator",
+            "value": "return datasources[\"saopaulo-blocks\"].latest !== undefined;",
+            "off_text": "Offline",
+            "on_text": "Online",
+            "title": "Status"
+          }
+        },
+        {
+          "settings": {
+            "type": "text_widget",
+            "size": "regular",
+            "units": "blocks",
+            "title": "Block Height",
+            "value": "datasources[\"saopaulo-blocks\"].latest.block.blockHeight",
+            "sparkline": true,
+            "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "-23.550520",
+            "lon": "-46.633309"
+          }
+        }
+      ]
+    }
+  ],
+  "plugins": [],
+  "version": 1,
+  "datasources": [
+    {
+      "name": "genesis-blocks",
+      "type": "JSON",
+      "settings": {
+        "method": "GET",
+        "use_thingproxy": false,
+        "headers": [
+          {
+            "value": "application/ld+json",
+            "name": "Accept"
+          }
+        ],
+        "refresh": 5,
+        "url": "https://genesis.testnet.veres.one/ledger-agents/9801d1e5-0505-4dc2-a841-413dc4cf2049/blocks"
+      }
+    },
+    {
+      "name": "frankfurt-blocks",
+      "type": "JSON",
+      "settings": {
+        "method": "GET",
+        "use_thingproxy": false,
+        "headers": [
+          {
+            "value": "application/ld+json",
+            "name": "Accept"
+          }
+        ],
+        "refresh": 5,
+        "url": "https://frankfurt.testnet.veres.one/ledger-agents/3591bcd1-2943-43e8-bd23-ffab73027cbc/blocks"
+      }
+    },
+    {
+      "name": "mumbai-blocks",
+      "type": "JSON",
+      "settings": {
+        "method": "GET",
+        "use_thingproxy": false,
+        "headers": [
+          {
+            "value": "application/ld+json",
+            "name": "Accept"
+          }
+        ],
+        "refresh": 5,
+        "url": "https://mumbai.testnet.veres.one/ledger-agents/6caa9846-fcae-4cf5-b300-c7f123acfa03/blocks"
+      }
+    },
+    {
+      "name": "singapore-blocks",
+      "type": "JSON",
+      "settings": {
+        "method": "GET",
+        "use_thingproxy": false,
+        "headers": [
+          {
+            "value": "application/ld+json",
+            "name": "Accept"
+          }
+        ],
+        "refresh": 5,
+        "url": "https://singapore.testnet.veres.one/ledger-agents/2d1648f2-9d08-4fe4-8676-f322ad0ea9bd/blocks"
+      }
+    },
+    {
+      "name": "tokyo-blocks",
+      "type": "JSON",
+      "settings": {
+        "method": "GET",
+        "use_thingproxy": false,
+        "headers": [
+          {
+            "value": "application/ld+json",
+            "name": "Accept"
+          }
+        ],
+        "refresh": 5,
+        "url": "https://tokyo.testnet.veres.one/ledger-agents/b79ed865-0f13-4afa-a62f-7879152488f1/blocks"
+      }
+    },
+    {
+      "name": "alturas-blocks",
+      "type": "JSON",
+      "settings": {
+        "method": "GET",
+        "use_thingproxy": false,
+        "headers": [
+          {
+            "value": "application/ld+json",
+            "name": "Accept"
+          }
+        ],
+        "refresh": 5,
+        "url": "https://alturas.testnet.veres.one/ledger-agents/7846c209-34e8-4f69-8e0c-24652be3721b/blocks"
+      }
+    },
+    {
+      "name": "saopaulo-blocks",
+      "type": "JSON",
+      "settings": {
+        "method": "GET",
+        "use_thingproxy": false,
+        "headers": [
+          {
+            "value": "application/ld+json",
+            "name": "Accept"
+          }
+        ],
+        "refresh": 5,
+        "url": "https://saopaulo.testnet.veres.one/ledger-agents/6c4a11c3-a682-4c17-b86a-153afd0cb706/blocks"
+      }
+    }
+  ],
+  "allow_edit": false,
+  "columns": 4
+}

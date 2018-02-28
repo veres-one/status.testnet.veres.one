@@ -317,7 +317,7 @@
       "type": "JSON",
       "settings": {
         "method": "GET",
-        "use_thingproxy": false,
+        "use_thingproxy": true,
         "headers": [
           {
             "value": "application/ld+json",
@@ -333,7 +333,7 @@
       "type": "JSON",
       "settings": {
         "method": "GET",
-        "use_thingproxy": false,
+        "use_thingproxy": true,
         "headers": [
           {
             "value": "application/ld+json",
@@ -349,7 +349,7 @@
       "type": "JSON",
       "settings": {
         "method": "GET",
-        "use_thingproxy": false,
+        "use_thingproxy": true,
         "headers": [
           {
             "value": "application/ld+json",
@@ -365,7 +365,7 @@
       "type": "JSON",
       "settings": {
         "method": "GET",
-        "use_thingproxy": false,
+        "use_thingproxy": true,
         "headers": [
           {
             "value": "application/ld+json",
@@ -381,7 +381,7 @@
       "type": "JSON",
       "settings": {
         "method": "GET",
-        "use_thingproxy": false,
+        "use_thingproxy": true,
         "headers": [
           {
             "value": "application/ld+json",
@@ -397,7 +397,7 @@
       "type": "JSON",
       "settings": {
         "method": "GET",
-        "use_thingproxy": false,
+        "use_thingproxy": true,
         "headers": [
           {
             "value": "application/ld+json",
@@ -413,7 +413,7 @@
       "type": "JSON",
       "settings": {
         "method": "GET",
-        "use_thingproxy": false,
+        "use_thingproxy": true,
         "headers": [
           {
             "value": "application/ld+json",

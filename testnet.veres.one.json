@@ -325,7 +325,7 @@
           }
         ],
         "refresh": 5,
-        "url": "https://genesis.testnet.veres.one/ledger-agents/9801d1e5-0505-4dc2-a841-413dc4cf2049/blocks"
+        "url": "https://genesis.testnet.veres.one/ledger-agents/72fdcd6a-5861-4307-ba3d-cbb72509533c/blocks"
       }
     },
     {
@@ -341,7 +341,7 @@
           }
         ],
         "refresh": 5,
-        "url": "https://frankfurt.testnet.veres.one/ledger-agents/3591bcd1-2943-43e8-bd23-ffab73027cbc/blocks"
+        "url": "https://frankfurt.testnet.veres.one/ledger-agents/6e7b281e-421f-4781-9e05-3c3614f4da07/blocks"
       }
     },
     {
@@ -357,7 +357,7 @@
           }
         ],
         "refresh": 5,
-        "url": "https://mumbai.testnet.veres.one/ledger-agents/6caa9846-fcae-4cf5-b300-c7f123acfa03/blocks"
+        "url": "https://mumbai.testnet.veres.one/ledger-agents/a61a5157-a22c-4cad-a4b4-7d5a991d81be/blocks"
       }
     },
     {
@@ -373,7 +373,7 @@
           }
         ],
         "refresh": 5,
-        "url": "https://singapore.testnet.veres.one/ledger-agents/2d1648f2-9d08-4fe4-8676-f322ad0ea9bd/blocks"
+        "url": "https://singapore.testnet.veres.one/ledger-agents/69ed3a5d-1dd4-4f28-8e4d-71ca9c0a42a0/blocks"
       }
     },
     {
@@ -389,7 +389,7 @@
           }
         ],
         "refresh": 5,
-        "url": "https://tokyo.testnet.veres.one/ledger-agents/b79ed865-0f13-4afa-a62f-7879152488f1/blocks"
+        "url": "https://tokyo.testnet.veres.one/ledger-agents/864fac11-6603-4f5a-8c2a-19a8edaee7b6/blocks"
       }
     },
     {
@@ -405,7 +405,7 @@
           }
         ],
         "refresh": 5,
-        "url": "https://alturas.testnet.veres.one/ledger-agents/7846c209-34e8-4f69-8e0c-24652be3721b/blocks"
+        "url": "https://alturas.testnet.veres.one/ledger-agents/95474a37-3653-4751-bec2-7e5cc7b417b4/blocks"
       }
     },
     {
@@ -421,7 +421,7 @@
           }
         ],
         "refresh": 5,
-        "url": "https://saopaulo.testnet.veres.one/ledger-agents/6c4a11c3-a682-4c17-b86a-153afd0cb706/blocks"
+        "url": "https://saopaulo.testnet.veres.one/ledger-agents/f3ee9d1a-e45a-43e3-9f1a-9a96b2a89d41/blocks"
       }
     }
   ],

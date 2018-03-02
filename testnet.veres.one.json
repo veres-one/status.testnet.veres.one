@@ -34,13 +34,6 @@
             "sparkline": true,
             "animate": true
           }
-        },
-        {
-          "type": "google_map",
-          "settings": {
-            "lat": "39.043757",
-            "lon": "-77.487442"
-          }
         }
       ]
     },
@@ -77,13 +70,6 @@
             "value": "datasources[\"frankfurt-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
-          }
-        },
-        {
-          "type": "google_map",
-          "settings": {
-            "lat": "50.110922",
-            "lon": "8.682127"
           }
         }
       ]
@@ -122,13 +108,6 @@
             "sparkline": true,
             "animate": true
           }
-        },
-        {
-          "type": "google_map",
-          "settings": {
-            "lat": "19.075984",
-            "lon": "72.877656"
-          }
         }
       ]
     },
@@ -165,13 +144,6 @@
             "value": "datasources[\"singapore-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
-          }
-        },
-        {
-          "type": "google_map",
-          "settings": {
-            "lat": "1.352083",
-            "lon": "103.819836"
           }
         }
       ]
@@ -210,13 +182,6 @@
             "sparkline": true,
             "animate": true
           }
-        },
-        {
-          "type": "google_map",
-          "settings": {
-            "lat": "35.689487",
-            "lon": "139.691706"
-          }
         }
       ]
     },
@@ -254,13 +219,6 @@
             "sparkline": true,
             "animate": true
           }
-        },
-        {
-          "type": "google_map",
-          "settings": {
-            "lat": "41.487115",
-            "lon": "-120.542456"
-          }
         }
       ]
     },
@@ -297,13 +255,6 @@
             "value": "datasources[\"saopaulo-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
-          }
-        },
-        {
-          "type": "google_map",
-          "settings": {
-            "lat": "-23.550520",
-            "lon": "-46.633309"
           }
         }
       ]

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>freeboard</title>
-	<meta name="mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="viewport" content = "width = device-width, initial-scale = 1, user-scalable = no" />
@@ -16,10 +16,16 @@
                     $(function()
                     { //DOM Ready
                         freeboard.initialize(true);
-
                         $.getJSON('testnet.veres.one.json', function(data) {
                             freeboard.loadDashboard(data, function() {
                                 freeboard.setEditing(false);
+                                setTimeout(function(){
+                                    $.getJSON('testnet.veres.one.json', function(data) {
+                                        freeboard.loadDashboard(data, function() {
+                                            freeboard.setEditing(false);
+                                        });
+                                    });
+                                }, 100);
                             });
                         });
 
@@ -85,16 +91,16 @@
             </div>
         </div>
     </div>
-	<div id="column-tools" class="responsive-column-width">
-		<ul class="board-toolbar left-columns">
-			<li class="column-tool add" data-bind="click: addGridColumnLeft"><span class="column-icon right"></span><i class="icon-arrow-left icon-white"></i></li>
-			<li class="column-tool sub" data-bind="click: subGridColumnLeft"><span class="column-icon left"></span><i class="icon-arrow-right icon-white"></i></li>
-		</ul>
-		<ul class="board-toolbar right-columns">
-			<li class="column-tool sub" data-bind="click: subGridColumnRight"><span class="column-icon right"></span><i class="icon-arrow-left icon-white"></i></li>
-			<li class="column-tool add" data-bind="click: addGridColumnRight"><span class="column-icon left"></span><i class="icon-arrow-right icon-white"></i></li>
-		</ul>
-	</div>
+    <div id="column-tools" class="responsive-column-width">
+        <ul class="board-toolbar left-columns">
+            <li class="column-tool add" data-bind="click: addGridColumnLeft"><span class="column-icon right"></span><i class="icon-arrow-left icon-white"></i></li>
+            <li class="column-tool sub" data-bind="click: subGridColumnLeft"><span class="column-icon left"></span><i class="icon-arrow-right icon-white"></i></li>
+        </ul>
+        <ul class="board-toolbar right-columns">
+            <li class="column-tool sub" data-bind="click: subGridColumnRight"><span class="column-icon right"></span><i class="icon-arrow-left icon-white"></i></li>
+            <li class="column-tool add" data-bind="click: addGridColumnRight"><span class="column-icon left"></span><i class="icon-arrow-right icon-white"></i></li>
+        </ul>
+    </div>
     <div id="toggle-header" data-bind="click: toggleEditing">
         <i id="toggle-header-icon" class="icon-wrench icon-white"></i></div>
 </header>

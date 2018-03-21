@@ -4622,7 +4622,7 @@ freeboard.loadDatasourcePlugin({
             }
             else {
                 window.gmap_initialize = initializeMap;
-                head.js("https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=gmap_initialize");
+                head.js("https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=gmap_initialize&key=AIzaSyAjaIamos94jEPtDONhZyL6yRT2WIRGWvI");
             }
         }
 

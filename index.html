@@ -20,12 +20,10 @@
                             freeboard.loadDashboard(data, function() {
                                 freeboard.setEditing(false);
                                 setTimeout(function(){
-                                    $.getJSON('testnet.veres.one.json', function(data) {
-                                        freeboard.loadDashboard(data, function() {
-                                            freeboard.setEditing(false);
-                                        });
+                                    freeboard.loadDashboard(data, function() {
+                                        freeboard.setEditing(false);
                                     });
-                                }, 100);
+                                }, 250);
                             });
                         });
 

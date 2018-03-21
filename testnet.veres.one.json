@@ -16,8 +16,8 @@
       "col_width": 1,
       "widgets": [
         {
+          "type": "indicator",
           "settings": {
-            "type": "indicator",
             "value": "return datasources[\"genesis-blocks\"].latest !== undefined;",
             "off_text": "Offline",
             "on_text": "Online",
@@ -25,14 +25,21 @@
           }
         },
         {
+          "type": "text_widget",
           "settings": {
-            "type": "text_widget",
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "datasources[\"genesis-blocks\"].latest.block.blockHeight",
+            "value": "return datasources[\"genesis-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "39.043757",
+            "lon": "-77.487442"
           }
         }
       ]
@@ -53,8 +60,8 @@
       "col_width": 1,
       "widgets": [
         {
+          "type": "indicator",
           "settings": {
-            "type": "indicator",
             "value": "return datasources[\"frankfurt-blocks\"].latest !== undefined;",
             "off_text": "Offline",
             "on_text": "Online",
@@ -62,14 +69,21 @@
           }
         },
         {
+          "type": "text_widget",
           "settings": {
-            "type": "text_widget",
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "datasources[\"frankfurt-blocks\"].latest.block.blockHeight",
+            "value": "return datasources[\"frankfurt-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "50.110922",
+            "lon": "8.682127"
           }
         }
       ]
@@ -90,8 +104,8 @@
       "col_width": 1,
       "widgets": [
         {
+          "type": "indicator",
           "settings": {
-            "type": "indicator",
             "value": "return datasources[\"mumbai-blocks\"].latest !== undefined;",
             "off_text": "Offline",
             "on_text": "Online",
@@ -99,14 +113,21 @@
           }
         },
         {
+          "type": "text_widget",
           "settings": {
-            "type": "text_widget",
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "datasources[\"mumbai-blocks\"].latest.block.blockHeight",
+            "value": "return datasources[\"mumbai-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "19.075984",
+            "lon": "72.877656"
           }
         }
       ]
@@ -127,8 +148,8 @@
       "col_width": 1,
       "widgets": [
         {
+          "type": "indicator",
           "settings": {
-            "type": "indicator",
             "value": "return datasources[\"singapore-blocks\"].latest !== undefined;",
             "off_text": "Offline",
             "on_text": "Online",
@@ -136,14 +157,21 @@
           }
         },
         {
+          "type": "text_widget",
           "settings": {
-            "type": "text_widget",
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "datasources[\"singapore-blocks\"].latest.block.blockHeight",
+            "value": "return datasources[\"singapore-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "1.352083",
+            "lon": "103.819836"
           }
         }
       ]
@@ -164,8 +192,8 @@
       "col_width": 1,
       "widgets": [
         {
+          "type": "indicator",
           "settings": {
-            "type": "indicator",
             "value": "return datasources[\"tokyo-blocks\"].latest !== undefined;",
             "off_text": "Offline",
             "on_text": "Online",
@@ -173,14 +201,21 @@
           }
         },
         {
+          "type": "text_widget",
           "settings": {
-            "type": "text_widget",
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "datasources[\"tokyo-blocks\"].latest.block.blockHeight",
+            "value": "return datasources[\"tokyo-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "35.689487",
+            "lon": "139.691706"
           }
         }
       ]
@@ -201,8 +236,8 @@
       "col_width": 1,
       "widgets": [
         {
+          "type": "indicator",
           "settings": {
-            "type": "indicator",
             "value": "return datasources[\"alturas-blocks\"].latest !== undefined;",
             "off_text": "Offline",
             "on_text": "Online",
@@ -210,14 +245,21 @@
           }
         },
         {
+          "type": "text_widget",
           "settings": {
-            "type": "text_widget",
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "datasources[\"alturas-blocks\"].latest.block.blockHeight",
+            "value": "return datasources[\"alturas-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "41.487115",
+            "lon": "-120.542456"
           }
         }
       ]
@@ -238,8 +280,8 @@
       "col_width": 1,
       "widgets": [
         {
+          "type": "indicator",
           "settings": {
-            "type": "indicator",
             "value": "return datasources[\"saopaulo-blocks\"].latest !== undefined;",
             "off_text": "Offline",
             "on_text": "Online",
@@ -247,14 +289,21 @@
           }
         },
         {
+          "type": "text_widget",
           "settings": {
-            "type": "text_widget",
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "datasources[\"saopaulo-blocks\"].latest.block.blockHeight",
+            "value": "return datasources[\"saopaulo-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
+          }
+        },
+        {
+          "type": "google_map",
+          "settings": {
+            "lat": "-23.550520",
+            "lon": "-46.633309"
           }
         }
       ]

@@ -30,7 +30,7 @@
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "return datasources[\"genesis-blocks\"].latest.block.blockHeight",
+            "value": "datasources[\"genesis-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
           }
@@ -74,7 +74,7 @@
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "return datasources[\"frankfurt-blocks\"].latest.block.blockHeight",
+            "value": "datasources[\"frankfurt-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
           }
@@ -118,7 +118,7 @@
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "return datasources[\"mumbai-blocks\"].latest.block.blockHeight",
+            "value": "datasources[\"mumbai-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
           }
@@ -162,7 +162,7 @@
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "return datasources[\"singapore-blocks\"].latest.block.blockHeight",
+            "value": "datasources[\"singapore-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
           }
@@ -206,7 +206,7 @@
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "return datasources[\"tokyo-blocks\"].latest.block.blockHeight",
+            "value": "datasources[\"tokyo-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
           }
@@ -250,7 +250,7 @@
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "return datasources[\"alturas-blocks\"].latest.block.blockHeight",
+            "value": "datasources[\"alturas-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
           }
@@ -294,7 +294,7 @@
             "size": "regular",
             "units": "blocks",
             "title": "Block Height",
-            "value": "return datasources[\"saopaulo-blocks\"].latest.block.blockHeight",
+            "value": "datasources[\"saopaulo-blocks\"].latest.block.blockHeight",
             "sparkline": true,
             "animate": true
           }

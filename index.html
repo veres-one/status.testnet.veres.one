@@ -16,7 +16,9 @@
                     $(function()
                     { //DOM Ready
                         freeboard.initialize(true);
-                        $.getJSON('testnet.veres.one.json', function(data) {
+                        // FIXME: allow selecting a network
+                        //$.getJSON('testnet.veres.one.json', function(data) {
+                        $.getJSON('bee.veres.one.json', function(data) {
                             freeboard.loadDashboard(data, function() {
                                 freeboard.setEditing(false);
                                 setTimeout(function(){

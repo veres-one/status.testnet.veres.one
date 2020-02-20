@@ -193,7 +193,7 @@
           }
         ],
         "refresh": 5,
-        "url": "https://ashburn.capybara.veres.one/ledger-agents/2ce7c102-ff35-4b71-af4d-c909b87c6dd9/blocks"
+        "url": "https://ashburn.capybara.veres.one/ledger-agents/603eedff-9a93-423b-8be2-746c62d7ab7b/blocks"
       }
     },
     {
@@ -209,7 +209,7 @@
           }
         ],
         "refresh": 5,
-        "url": "https://frankfurt.capybara.veres.one/ledger-agents/b0738a47-87c5-4941-9c99-b121ecd923dc/blocks"
+        "url": "https://frankfurt.capybara.veres.one/ledger-agents/cf71cee7-beee-4a44-b9bf-22230c056384/blocks"
       }
     },
     {
@@ -225,7 +225,7 @@
           }
         ],
         "refresh": 5,
-        "url": "https://mumbai.capybara.veres.one/ledger-agents/9d47d573-c193-40f4-b352-594d539553c2/blocks"
+        "url": "https://mumbai.capybara.veres.one/ledger-agents/e8436ad6-b9ac-4761-b154-f8e001a1a5e3/blocks"
       }
     },
     {
@@ -241,7 +241,7 @@
           }
         ],
         "refresh": 5,
-        "url": "https://tokyo.capybara.veres.one/ledger-agents/eaa9b9de-ba52-4af1-9084-ac758238cf3a/blocks"
+        "url": "https://tokyo.capybara.veres.one/ledger-agents/994dec68-c0df-426f-bb5d-10f59b738a0e/blocks"
       }
     }
   ],
